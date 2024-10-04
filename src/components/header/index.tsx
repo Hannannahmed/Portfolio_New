@@ -24,7 +24,7 @@ const Index: React.FC = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav d-flex gap-5 mx-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav d-flex gap-5 p-2 mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href="#Portfolio">
                 Portfolio
