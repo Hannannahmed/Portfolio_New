@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: #242a41;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d2130 !important;
+}
+.Btn_Class {
+  background-color: #7de0ea;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.HeyText {
+  font-weight: 400;
+}
+.heroBg {
+  width: 90%;
+}
+.iconHero {
+  border-radius: 50%;
+  border: 1px solid #242a41;
+  padding: 15px;
+  height: 70px;
+  width: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.paraHero {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #43495b;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.specialization-section {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  transform: rotate(-2deg);
+}
+.card2 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  transform: rotate(2deg);
+  margin-top: 10px;
+}
+.card3 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  transform: rotate(-2deg);
+  margin-top: 10px;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+  font-size: 20px;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.card1 h4,
+.card2 h4,
+.card3 h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* 'Portfolio Css' */
+.cardProject {
+  background-color: #defcff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+}
+.firstcard {
+  background-color: #defcff;
+}
+.secondCard {
+  background-color: #edf0f9;
+}
+.readCaseStudy {
+  background-color: #583fbc;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn_ShowMore {
+  background-color: #4f46e5;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.project_heading {
+  font-size: 24px;
+}
+.paraportfolio {
+  color: #585f6f;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.btn_portfolio {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px;
+  color: #585f6f;
+  font-size: 14px;
+}
+.footertext {
+  color: #43495b;
+  font-size: 14px;
+}
+.footeremail {
+  color: #4f46e5;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cardContact {
+  background-color: #583fbc;
+  border-radius: 10px;
+  color: white;
+  padding: 50px;
+}
+.contactPara {
+  font-size: 16px;
+  font-weight: 200;
+}
+.btn_Linkdin {
+  background-color: black;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+.accordion {
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  margin: 0;
+}
+
+.accordion-button {
+  background-color: #f1f5f9;
+  color: #111827;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+
+.accordion-button::after {
+  content: "\25BC";
+  font-size: 14px;
+  transition: transform 0.2s ease;
+}
+
+.accordion-button.collapsed::after {
+  content: "\25B6";
+}
+
+.accordion-collapse {
+  border-top: 1px solid #e5e7eb;
+}
+
+.accordion-body {
+  padding: 15px;
+  background-color: #fff;
+  color: #6b7280;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.faqshead1 {
+  color: #2cccc8;
+  font-size: 20px;
+  font-weight: 500;
+}
+.FaqsHEading {
+  font-size: 40px;
+}
+.questions {
+  color: #2cccc8;
+}
+.FaqsPara {
+  font-size: 13px;
+}
+.EmailFqs {
+  font-size: 14px;
+  color: #2cccc8;
+}
+
+.mobile_screen {
+  display: none;
+}
+.bg_colo_pro{
+  background-color: #4f46e5;
+  border-radius: 50%;
+  padding: 0px;
+}
+.custom-modal .modal-content {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header-custom {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  padding: 15px 20px;
+}
+
+.modal-title-custom {
+  color: #343a40;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.modal-body-custom {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.modal-text {
+  color: #495057;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.modal-footer-custom {
+  background-color: #f8f9fa;
+  border-top: none;
+  padding: 15px;
+  justify-content: center;
+}
+
+.custom-button {
+  background-color: #583fbc;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 25px;
+}
+
+/* Base Styles */
+.hero-section {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Font Sizes */
+.hero-section h1 {
+  font-size: calc(2rem + 1vw); /* Responsive font size */
+}
+
+.hero-section p {
+  font-size: calc(1.25rem + 0.5vw); /* Responsive font size */
+}
+/* Other Styles (Optional) */
+.iconHero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img_logo{
+  width: 150px;
+  height: 50px;
+  object-fit: contain;
+}
+.btn_Linkdin {
+  background-color: #583fbc;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn_Linkdin:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.btn_Linkdin:active {
+  transform: scale(0.95);
+}
+.HeyText {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items */
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 25px !important; /* Smaller font size for h1 on small screens */
+  }
+  .HeyText {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: center; /* Center align items */
+  }
+  .hero-section p {
+    font-size: 1rem !important; /* Smaller font size for p on small screens */
+  }
+
+  .btn_Linkdin {
+    padding: 8px 16px !important; /* Adjust button padding for small screens */
+    font-size: 0.9rem !important; /* Smaller button font size */
+  }
+
+  .iconHero {
+    /* Adjust icon size for small screens */
+    margin: 0 10px !important; /* Space between icons */
+  }
+
+  .iconHero a {
+    /* Ensure the icon links are appropriately sized */
+    font-size: 1.5rem !important; /* Adjust icon size */
+  }
+  .desktop_screen {
+    display: none !important;
+  }
+  .mobile_screen {
+    display: block !important;
+  }
+}
+
+
