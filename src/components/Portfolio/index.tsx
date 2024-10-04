@@ -147,7 +147,7 @@ const Index: React.FC = () => {
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <h3>{item.heading}</h3>
-                  <div className="d-flex gap-3 mt-4">
+                  <div className="d-flex flex-wrap gap-3 mt-4">
                     <div className="btn_portfolio">{item.button.btn_1}</div>
                     <div className="btn_portfolio">{item.button.btn_2}</div>
                     {index === 1 ? null : (
