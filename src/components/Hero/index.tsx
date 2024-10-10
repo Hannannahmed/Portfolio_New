@@ -94,7 +94,7 @@ const Index: React.FC = () => {
         <motion.a
           href="/Hannan-Front-End-Developer.pdf"
           className="btn_Linkdin text-decoration-none"
-          download="Abdul_Hannan_Ahmed_Resume.pdf"
+          download="Hannan-Front-End-Developer.pdf"
           style={{
             backgroundColor: "#583FBC",
             color: "#fff",
