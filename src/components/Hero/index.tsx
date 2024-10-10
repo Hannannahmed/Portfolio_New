@@ -5,6 +5,7 @@ import { LuGithub } from "react-icons/lu";
 import { FaUpwork } from "react-icons/fa6";
 import RotatingBox from "../RotatingBox";
 
+
 const textVariant = {
   hidden: { opacity: 0, y: 50 },
   visible: {
@@ -92,7 +93,7 @@ const Index: React.FC = () => {
       </motion.div>
       <motion.div className="mb-4" variants={item}>
         <motion.a
-          href="/Hannan-FrontEnd-Developer.pdf"
+       href="/Hannan-Front-End-Developer.pdf"
           className="btn_Linkdin text-decoration-none"
           download="Abdul_Hannan_Ahmed_Resume.pdf"
           style={{
