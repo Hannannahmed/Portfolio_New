@@ -85,12 +85,11 @@ const Index: React.FC = () => {
           initial={{ opacity: 0, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          style={{ fontSize: "calc(1.25rem + 0.5vw)" }} // Responsive font size
+          style={{ fontSize: "calc(1.25rem + 0.5vw)" }} 
         >
           that excel at solving your business problems.
         </motion.p>
       </motion.div>
-      {/* Download Resume Button */}
       <motion.div className="mb-4" variants={item}>
         <motion.a
           href="/Hannan-Front-End-Developer.pdf"
@@ -115,7 +114,6 @@ const Index: React.FC = () => {
         </motion.a>
       </motion.div>
 
-      {/* Social Icons with Hover Effects */}
       <motion.div className="d-flex gap-5 justify-content-center" variants={container}>
         <motion.div
           className="iconHero"
