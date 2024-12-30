@@ -93,7 +93,7 @@ const Index: React.FC = () => {
       </motion.div>
       <motion.div className="mb-4" variants={item}>
         <motion.a
-       href="/Hannan-Front-End-Developer.pdf"
+       href="/Hannan-Web-Developer.pdf"
           className="btn_Linkdin text-decoration-none"
           download="Abdul_Hannan_Ahmed_Resume.pdf"
           style={{
